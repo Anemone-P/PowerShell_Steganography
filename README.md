@@ -3,6 +3,7 @@ The Encoder.ps1 takes an existing PNG and allows you to embed text directly into
 The pixels get changed starting from the top left pixel 0,0 and run down the first column until 0,200. The then start encoding again at 1,0. On a full white image the effect is easier to spot, but on any standard photo it isnt particularly visible unless you are already looking for it. The lowest possible alpha applied to a pixel can only be 238 or -17.
 
 Usage example:
+<img width="1167" height="34" alt="image" src="https://github.com/user-attachments/assets/cf148fc8-3d89-46ec-84ec-b1a899f15b6a" />
 
 Output's a new image in the same directory with a similar name
 Gary_Yawn.png -> Gary_Yawn_2.png
