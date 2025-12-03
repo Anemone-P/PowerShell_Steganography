@@ -10,9 +10,9 @@ Gary_Yawn.png -> Gary_Yawn_2.png
 
 Original:
 
-<img width="603" height="745" alt="Gary_Yawn" src="https://github.com/user-attachments/assets/c54a88ef-5f2f-4c6f-a0f8-f4b5946657c6" />
+
 
 With text encoded:
 
-<img width="603" height="745" alt="Gary_Yawn_2" src="https://github.com/user-attachments/assets/67e2b460-12da-48a7-9c0e-3ae43ed28909" />
+
 
