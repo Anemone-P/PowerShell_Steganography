@@ -14,4 +14,5 @@ Original:
 
 With text encoded:
 
-<img width="603" height="745" alt="Gary_Yawn_2" src="https://github.com/user-attachments/assets/dbc821d5-9312-40c2-b3cb-26c1c12565e2" />
+<img width="603" height="745" alt="Gary_Yawn_2" src="https://github.com/user-attachments/assets/67e2b460-12da-48a7-9c0e-3ae43ed28909" />
+
