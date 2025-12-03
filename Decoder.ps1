@@ -62,8 +62,8 @@ function Decode-PNG {
         if($i % 2 -eq 0){
             $ADif = (255 - $pixel.A) -1
             $ADifNext = (255 - $tocheck[$i+1].A) -1
-            $blah = "$ADif"+"$ADifNext"
-            $AdifHex = $charray[$blah]
+            $CombinedADif = "$ADif"+"$ADifNext"
+            $AdifHex = $charray[$CombinedADif]
             $HexFound += $AdifHex
         }
         $i=$i+1
