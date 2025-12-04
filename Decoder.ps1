@@ -6,7 +6,7 @@ function Decode-PNG {
         param([String]$TextToConvert)
         $hexBytes = $TextToConvert | Format-Hex | Select-Object -ExpandProperty Bytes
         $rawHexString = ($hexBytes | ForEach-Object { '{0:x2}' -f $_ }) -join ''
-        #$rawHexString
+        $rawHexString
     }
 
     function ConvertFrom-Hex {
@@ -24,6 +24,7 @@ function Decode-PNG {
         }
         [System.Text.Encoding]::UTF8.GetString($byteArray)
     }
+
 
     Add-Type -AssemblyName System.Drawing
     $bitmap = New-Object System.Drawing.Bitmap($imagePath)
