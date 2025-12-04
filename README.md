@@ -13,13 +13,15 @@ GaryMakingCoffee.png -> GaryMakingCoffee_2.png
 
 Original:
 
-<img width="479" height="643" alt="GaryMakingCoffee" src="https://github.com/user-attachments/assets/f3245eec-a4ad-4aa3-98f2-dcbca8d7dd3c" />
+<img width="1500" height="2000" alt="GaryMakingCoffee" src="https://github.com/user-attachments/assets/d411adf4-8da5-415e-82c1-d10d1e1f7b30" />
+
 
 
 
 With text encoded:
 
-<img width="479" height="643" alt="GaryMakingCoffee_2" src="https://github.com/user-attachments/assets/01360cc9-7566-4c2f-a663-076ddabc9e5d" />
+<img width="1500" height="2000" alt="GaryMakingCoffee_2" src="https://github.com/user-attachments/assets/009fc615-1b1b-412e-bc89-9edb88937c30" />
+
 
 
 
