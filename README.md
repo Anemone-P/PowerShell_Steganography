@@ -25,7 +25,7 @@ With text encoded:
 
 
 Here is a zoomed in bit of the top left corner where the data is stored for both GaryMakingCoffee and GaryMakingCoffee_2
-This image is 1500x2000 and the window screen provides a pattern which makes it much harder to see. 
+This image is 1500x2000 and the window screen provides a pattern which makes it much harder to see. But Dont take my word for it, the GaryMakingCoffee_2.png above can be downloaded and decoded yourself to see the output.
 
   Original on the left  <img width="232" height="229" alt="image" src="https://github.com/user-attachments/assets/3e4822dd-7bcf-4af1-88c9-c9f812bf0cdd" />   Encoded text on the right
 
