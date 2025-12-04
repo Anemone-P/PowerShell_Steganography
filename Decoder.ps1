@@ -71,4 +71,5 @@ function Decode-PNG {
 
     $HexConverted = $HexFound  -join ""  | ConvertFrom-Hex
     write-host $HexConverted
+    $bitmap.Dispose()
  }
