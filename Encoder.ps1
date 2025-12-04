@@ -7,7 +7,7 @@ function Encode-PNG {
         param([String]$TextToConvert)
         $hexBytes = $TextToConvert | Format-Hex | Select-Object -ExpandProperty Bytes
         $rawHexString = ($hexBytes | ForEach-Object { '{0:x2}' -f $_ }) -join ''
-        #$rawHexString
+        $rawHexString
     }
 
     function ConvertFrom-Hex {
@@ -25,6 +25,7 @@ function Encode-PNG {
         }
         [System.Text.Encoding]::UTF8.GetString($byteArray)
     }
+
 
 $TextAsHex = (ConvertTo-Hex $TextToEncode) -split "" | Where-Object {$_ -ine ""}
 $Charray = @("N","0","1","2","3","4","5","6","7","8","9","a","b","c","d","e","f")
@@ -61,6 +62,7 @@ if($bitmap.PixelFormat -ine "Format32bppArgb"){
     $TotalPixels = $width*$height
 
 }
+
     #Create an array that includes pixel data for the entire image
     $PixelData=@()
     for ($x = 0; $x -lt $bitmap.Width; $x++) {
@@ -83,6 +85,8 @@ if($bitmap.PixelFormat -ine "Format32bppArgb"){
             }        
         }    
     }
+
+
 foreach($pixel in $pixeldata){$pixel.A = 255}
 
 $i = 0
