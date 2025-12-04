@@ -7,7 +7,7 @@ function Encode-PNG {
         param([String]$TextToConvert)
         $hexBytes = $TextToConvert | Format-Hex | Select-Object -ExpandProperty Bytes
         $rawHexString = ($hexBytes | ForEach-Object { '{0:x2}' -f $_ }) -join ''
-        $rawHexString
+        #$rawHexString
     }
 
     function ConvertFrom-Hex {
