@@ -92,7 +92,7 @@ foreach($num in $ToEncode){
     $bitmap.SetPixel($pixeltoChange.X, $pixeltoChange.Y, $newColor)
 $i = $i+1
 }
-$imagepath2 = $imagepath -replace ".png","_2.png"
+$imagepath2 = $imagepath -replace "(\..*$)","_2.png"
 $bitmap.Save($ImagePath2)
 $bitmap.Dispose()
 
