@@ -14,7 +14,7 @@ function Decode-PNG {
             [Parameter(Mandatory=$true, ValueFromPipeline=$true)] [string]$HexString
         )
         if ($HexString.Length % 2 -ne 0) {
-            Write-Error "Character count isn't even!"
+            Write-Error "Hex string must have an even number of characters."
             return
         }
         $byteArray = New-Object byte[] ($HexString.Length / 2)
@@ -31,7 +31,7 @@ function Decode-PNG {
     $height = $bitmap.Height
     $TotalPixels = $width*$height
 
-    # Create an array that includes pixel data for the first 200 x 50 pixels
+    #Create an array that includes pixel data for the entire image
     $PixelData=@()
     for ($x = 0; $x -lt $bitmap.Width; $x++) {
         for ($y = 0; $y -lt $bitmap.Height; $y++) {
@@ -62,8 +62,8 @@ function Decode-PNG {
         if($i % 2 -eq 0){
             $ADif = (255 - $pixel.A) -1
             $ADifNext = (255 - $tocheck[$i+1].A) -1
-            $CombinedADif = "$ADif"+"$ADifNext"
-            $AdifHex = $charray[$CombinedADif]
+            $ADifCombined = "$ADif"+"$ADifNext"
+            $AdifHex = $charray[$ADifCombined]
             $HexFound += $AdifHex
         }
         $i=$i+1
