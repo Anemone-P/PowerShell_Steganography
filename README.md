@@ -30,7 +30,9 @@ This image is 1500x2000 and the window screen provides a pattern which makes it 
   Original on the left  <img width="232" height="229" alt="image" src="https://github.com/user-attachments/assets/3e4822dd-7bcf-4af1-88c9-c9f812bf0cdd" />   Encoded text on the right
 
 
-Below is random text encoded on a 100 x 100 image to show how the effect can look:
+Below is text encoded on a 100 x 100 image to show how the effect can look:
+The text: "This is a ton of example text using many characters so we get a lot of random Alpha valuezzzzz"
+I tried to include as many characters as possible to get as much affect as possible.
 
 <img width="100" height="100" alt="SmallTestImage_2" src="https://github.com/user-attachments/assets/43886d11-50c9-4de7-ba22-45e6abd277dd" />
 
